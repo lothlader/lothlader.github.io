@@ -1,0 +1,130 @@
+html {
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  text-align: center;
+  text-shadow: 1px 2px 0 rgba(255, 255, 255, .5);
+  letter-spacing: .05em;
+  line-height: 1.5;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-image: url("/images/halftone.png");
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  color: gray;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.site-logotype, .directions {
+  display: inline-block;
+  margin: 1em auto 0 auto;
+}
+
+.site-description, .section-history p:first-of-type {
+  font-size: 21px;
+}
+
+.section {
+  margin: 3em;
+}
+
+.section-gallery, .gallery-item {
+  margin-right: auto;
+  margin-left: auto;
+  width: 850px;
+}
+
+.section-history {
+  margin-right: auto;
+  margin-left: auto;
+  width: 750px;
+}
+
+.nav-item, .section-contact span {
+  display: inline-block;
+  margin: 0 .5em;
+}
+
+.nav-gallery {
+  padding-top: 1em;
+}
+
+.nav-products {
+  padding: 2em;
+}
+
+.gallery {
+  overflow: hidden;
+}
+
+.gallery-list {
+  width: 20000em;
+  position: relative;
+  list-style: none;
+}
+
+.gallery-item {
+  float: left;
+}
+
+.directions {
+  padding: 1em 2em;
+}
+
+.product {
+  display: none;
+  margin: 0 1em 1em;
+  width: 28%;
+}
+
+.fx-transparent {
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.fx-polaroid {
+  display: block;
+  border: 1em solid white;
+  background-color: white;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, .1);
+}
+
+.inactive {
+  opacity: .5;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}

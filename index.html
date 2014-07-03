@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<section class="section section-gallery fx-polaroid">
+  <h2 class="section-title visuallyhidden">Galleri</h2>
+
+  <div class="gallery">
+    <ul class="gallery-list">
+      <li class="gallery-item"><img src="/images/gallery/studio-1970.jpg" alt="Bild på studio 1970-tal"></li>
+      <li class="gallery-item"><img src="/images/gallery/marknad-1970.jpg" alt="Bild på marknad 1970-tal"></li>
+      <li class="gallery-item"><img src="/images/gallery/marknad.jpg" alt="Bild på marknad"></li>
+    </ul>
+  </div>
+
+  <div class="nav nav-gallery">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#" class="prev" title="Visa föregående bild">Föregående</a></li>
+      <li class="nav-item"><a href="#" class="next" title="Visa nästa bild">Nästa</a></li>
+    </ul>
+  </div>
+
+</section>
+
+<section class="section section-history">
+  <h2 class="section-title visuallyhidden">Historia</h2>
+
+  <p>Löth Läderhantverk startades 1972 då vi i vårt kompisgäng flyttade till Yxered (Västerviks kommun, nordöstra Småland) från villakvarteren i Älvsjö, Stockholm. En av polarna på denna ”gröna-vågen-utflykt” Micke, hade redan under Stockholmstiden börjat jobba med läder och efter några år var vi fyra killar som tillbringade huvuddelen av vår tid i verkstaden</p>
+  <p>Torghandel under 1970-talet var trevlig, där vi stod bredvid fiskare, grönsakshandlare och potatisodlare på Fiskartorget i Västervik. Vimmerby Marken var en annan plats där vi också sålde, till lokalbefolkningen, turister och raggare</p>
+  <p>Efter 30 års uppehåll började jag tillverkningen igen, efter att mina barn gett mig en hel LÄDER-hud i julklapp. Sedan dess är verkstaden återigen min favoritplats, där jag finns nästan all min lediga tid</p>
+  <p>Välkommen på ett besök till Yxered och min verkstad när du själv har tid</p>
+
+  <a href="https://goo.gl/maps/FtBaw" class="directions fx-transparent" title="Besök Google Maps för vägbeskrivning">
+    Vägbeskrivning
+  </a>
+
+</section>
+
+<section class="section section-products fx-transparent">
+  <h2 class="section-title visuallyhidden">Produkter</h2>
+
+  <div class="nav nav-products">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#" class="filter" data-filter="all" title="Visa alla produkter">Visa alla</a></li>
+      <li class="nav-item"><a href="#" class="filter" data-filter=".category-bracelets" title="Visa bara armband">Armband</a></li>
+      <li class="nav-item"><a href="#" class="filter" data-filter=".category-belts" title="Visa bara bälten">Bälten</a></li>
+      <li class="nav-item"><a href="#" class="filter" data-filter=".category-handbags" title="Visa bara handväskor">Handväskor</a></li>
+      <li class="nav-item"><a href="#" class="filter" data-filter=".category-clogs" title="Visa bara träskor">Träskor</a></li>
+      <li class="nav-item"><a href="#" class="filter" data-filter=".category-covers" title="Visa bara fodral">Fodral</a></li>
+      <li class="nav-item"><a href="#" class="filter" data-filter=".category-wallets" title="Visa bara plånböcker">Plånböcker</a></li>
+    </ul>
+  </div>
+
+  {% for product in site.data.products %}
+    <div class="product category-{{ product.category }}">
+      <a href="{{ product.image }}" class="fx-polaroid" title="Visa stor bild på {{ product.title }}">
+        <img src="{{ product.thumbnail }}" alt="Bild på {{ product.title }}">
+      </a>
+      <h3 class="product-title">{{ product.title }}</h3>
+    </div>
+  {% endfor %}
+
+</section>

@@ -1,0 +1,59 @@
+- title: "Armband bred rem"
+  category: "bracelets"
+  image: "/images/products/armband-bred-rem.jpg"
+  thumbnail: "/images/products/armband-bred-rem-thumbnail.jpg"
+
+- title: "Armband bred special"
+  category: "bracelets"
+  image: "/images/products/armband-bred-special.jpg"
+  thumbnail: "/images/products/armband-bred-special-thumbnail.jpg"
+
+- title: "Armband flätade"
+  category: "bracelets"
+  image: "/images/products/armband-flatade.jpg"
+  thumbnail: "/images/products/armband-flatade-thumbnail.jpg"
+
+- title: "Bälte special"
+  category: "belts"
+  image: "/images/products/balte-special.jpg"
+  thumbnail: "/images/products/balte-special-thumbnail.jpg"
+
+- title: "Bälte klassisk"
+  category: "belts"
+  image: "/images/products/balten-klassisk.jpg"
+  thumbnail: "/images/products/balten-klassisk-thumbnail.jpg"
+
+- title: "Handväska rak"
+  category: "handbags"
+  image: "/images/products/handvaska-rak.jpg"
+  thumbnail: "/images/products/handvaska-rak-thumbnail.jpg"
+
+- title: "Handväska rundad"
+  category: "handbags"
+  image: "/images/products/handvaska-rundad.jpg"
+  thumbnail: "/images/products/handvaska-rundad-thumbnail.jpg"
+
+- title: "Klassiska träskor"
+  category: "clogs"
+  image: "/images/products/klassiska-traskor.jpg"
+  thumbnail: "/images/products/klassiska-traskor-thumbnail.jpg"
+
+- title: "Kreditkortsfodral"
+  category: "covers"
+  image: "/images/products/kreditkortsfodral.jpg"
+  thumbnail: "/images/products/kreditkortsfodral-thumbnail.jpg"
+
+- title: "Mobilfodral för bälte"
+  category: "covers"
+  image: "/images/products/mobilfodral-for-balte.jpg"
+  thumbnail: "/images/products/mobilfodral-for-balte-thumbnail.jpg"
+
+- title: "Nyckelfodral"
+  category: "covers"
+  image: "/images/products/nyckelfodral.jpg"
+  thumbnail: "/images/products/nyckelfodral-thumbnail.jpg"
+
+- title: "Stor plånbak"
+  category: "wallets"
+  image: "/images/products/stor-planbak.jpg"
+  thumbnail: "/images/products/stor-planbak-thumbnail.jpg"
