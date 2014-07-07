@@ -42,22 +42,23 @@ layout: default
   <div class="nav nav-products">
     <ul class="nav-list">
       <li class="nav-item"><a href="#" class="filter" data-filter="all" title="Visa alla produkter">Visa alla</a></li>
-      <li class="nav-item"><a href="#" class="filter" data-filter=".category-bracelets" title="Visa bara armband">Armband</a></li>
-      <li class="nav-item"><a href="#" class="filter" data-filter=".category-belts" title="Visa bara bälten">Bälten</a></li>
-      <li class="nav-item"><a href="#" class="filter" data-filter=".category-covers" title="Visa bara fodral">Fodral</a></li>
-      <li class="nav-item"><a href="#" class="filter" data-filter=".category-handbags" title="Visa bara handväskor">Handväskor</a></li>
-      <li class="nav-item"><a href="#" class="filter" data-filter=".category-wallets-creditcard-holders" title="Visa bara Plånböcker & Kreditkortshållare">Plånböcker & Kreditkortshållare</a></li>
-      <li class="nav-item"><a href="#" class="filter" data-filter=".category-clogs" title="Visa bara träskor">Träskor</a></li>
+      {% for category in site.data.categories %}
+        <li class="nav-item"><a href="#" class="filter" data-filter=".category-{{ category.name }}" title="Visa bara {{ category.title }}">{{ category.title }}</a></li>
+      {% endfor %}
     </ul>
   </div>
 
   {% for product in site.data.products %}
-    <div class="product category-{{ product.category }}">
-      <a href="{{ product.image }}" class="fx-polaroid" title="Visa stor bild på {{ product.title }}">
-        <img src="{{ product.thumbnail }}" alt="Bild på {{ product.title }}">
-      </a>
-      <h3 class="product-title">{{ product.title }}</h3>
-    </div>
+    {% for category in site.data.categories %}
+      {% if product.category_id == category.id %}
+        <div class="product category-{{ category.name }}">
+          <a href="{{ product.image }}" class="fx-polaroid" title="Visa stor bild på {{ product.title }}">
+            <img src="{{ product.image_thumbnail }}" alt="Bild på {{ product.title }}">
+          </a>
+          <h3 class="product-title">{{ product.title }}</h3>
+        </div>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 
 </section>

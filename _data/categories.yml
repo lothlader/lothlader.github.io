@@ -1,0 +1,23 @@
+- id: "1"
+  name: "bracelets"
+  title: "Armband"
+
+- id: "2"
+  name: "belts"
+  title: "Bälten"
+
+- id: "3"
+  name: "covers"
+  title: "Fodral"
+
+- id: "4"
+  name: "handbags"
+  title: "Handväskor"
+
+- id: "5"
+  name: "wallets-creditcard-holders"
+  title: "Plånböcker & Kreditkortshållare"
+
+- id: "6"
+  name: "clogs"
+  title: "Träskor"
