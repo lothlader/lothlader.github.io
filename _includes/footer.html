@@ -6,7 +6,12 @@
   <span>Dalebo Yxered 590 92 Totebo</span>
   <span>0490-51019</span>
   <span>070-326 48 39</span>
-  <span><a href="mailto:anders@lothlader.se">anders@lothlader.se</a></span>
+
+  <script>
+    var a = ["mailto", ":"].join("");
+    var b = ["anders", "@", "lothlader.se"].join("");
+    document.write("<span><a href=\"" + a + b + "\">" + b + "</a></span>");
+  </script>
 
 </footer>
 
