@@ -8,20 +8,20 @@
   image: "/images/products/armband-bred-special.jpg"
   thumbnail: "/images/products/armband-bred-special-thumbnail.jpg"
 
-- title: "Armband flätade"
+- title: "Armband flätat"
   category: "bracelets"
-  image: "/images/products/armband-flatade.jpg"
-  thumbnail: "/images/products/armband-flatade-thumbnail.jpg"
+  image: "/images/products/armband-flatat.jpg"
+  thumbnail: "/images/products/armband-flatat-thumbnail.jpg"
+
+- title: "Bälte klassiskt"
+  category: "belts"
+  image: "/images/products/balte-klassiskt.jpg"
+  thumbnail: "/images/products/balte-klassiskt-thumbnail.jpg"
 
 - title: "Bälte special"
   category: "belts"
   image: "/images/products/balte-special.jpg"
   thumbnail: "/images/products/balte-special-thumbnail.jpg"
-
-- title: "Bälte klassisk"
-  category: "belts"
-  image: "/images/products/balten-klassisk.jpg"
-  thumbnail: "/images/products/balten-klassisk-thumbnail.jpg"
 
 - title: "Handväska rak"
   category: "handbags"
@@ -33,15 +33,10 @@
   image: "/images/products/handvaska-rundad.jpg"
   thumbnail: "/images/products/handvaska-rundad-thumbnail.jpg"
 
-- title: "Klassiska träskor"
-  category: "clogs"
-  image: "/images/products/klassiska-traskor.jpg"
-  thumbnail: "/images/products/klassiska-traskor-thumbnail.jpg"
-
-- title: "Kreditkortsfodral"
-  category: "covers"
-  image: "/images/products/kreditkortsfodral.jpg"
-  thumbnail: "/images/products/kreditkortsfodral-thumbnail.jpg"
+- title: "Kreditkortshållare"
+  category: "wallets-creditcard-holders"
+  image: "/images/products/kreditkortshallare.jpg"
+  thumbnail: "/images/products/kreditkortshallare-thumbnail.jpg"
 
 - title: "Mobilfodral för bälte"
   category: "covers"
@@ -53,7 +48,12 @@
   image: "/images/products/nyckelfodral.jpg"
   thumbnail: "/images/products/nyckelfodral-thumbnail.jpg"
 
-- title: "Stor plånbak"
-  category: "wallets"
-  image: "/images/products/stor-planbak.jpg"
-  thumbnail: "/images/products/stor-planbak-thumbnail.jpg"
+- title: "Plånbok stor"
+  category: "wallets-creditcard-holders"
+  image: "/images/products/planbok-stor.jpg"
+  thumbnail: "/images/products/planbok-stor-thumbnail.jpg"
+
+- title: "Träsko klassisk"
+  category: "clogs"
+  image: "/images/products/trasko-klassisk.jpg"
+  thumbnail: "/images/products/trasko-klassisk-thumbnail.jpg"
