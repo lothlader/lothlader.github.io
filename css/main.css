@@ -89,8 +89,14 @@ img {
   float: left;
 }
 
-.directions {
+.share, .directions {
   padding: 1em 2em;
+}
+
+.share {
+  position: absolute;
+  top: 1em;
+  left: 1em;
 }
 
 .product {
