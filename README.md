@@ -1,24 +1,26 @@
 # lothlader.github.io
 
-Website for [Löth Läderhantverk](http://www.lothlader.se) hosted by [GitHub Pages](https://pages.github.com).
+[![Build Status](https://travis-ci.org/lothlader/lothlader.github.io.svg?branch=master)](https://travis-ci.org/lothlader/lothlader.github.io)
+
+Website for [Löth Läderhantverk](http://www.lothlader.se) using [GitHub Pages](https://pages.github.com).
 
 ## Development
 
 Clone the repository to your projects directory.
 
-```bash
+```sh
 $ git clone git@github.com:lothlader/lothlader.github.io.git
 ```
 
-The [GitHub Pages Gem](https://github.com/github/pages-gem) includes required dependencies.
+Install the [GitHub Pages gem](https://github.com/github/pages-gem) to bootstrap the required dependencies.
 
-```bash
+```sh
 $ gem install github-pages
 ```
 
-Change to the project directory and start the server.
+Preview your changes using [Jekyll](http://jekyllrb.com)'s built-in server.
 
-```bash
+```sh
 $ jekyll serve --watch
 ```
 
